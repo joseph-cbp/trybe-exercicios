@@ -1,0 +1,1 @@
+Pastas com Exercícios da Trybe!
