@@ -28,3 +28,21 @@ for(let index = 0; index < numbers.length; index += 1){
     }
 }
 console.log(biggest)
+
+//Valor Impar
+let oddNumbers = [];
+for(let number of numbers){
+    if (number%2 != 0){
+        oddNumbers.push(number);
+    }
+}
+console.log(oddNumbers)
+
+//Valor Menor
+let lowest = numbers[0];
+for(let index = 0; index < numbers.length; index += 1){
+    if (numbers[index] <= lowest){
+        lowest = numbers[index]
+    }
+}
+console.log(lowest)
