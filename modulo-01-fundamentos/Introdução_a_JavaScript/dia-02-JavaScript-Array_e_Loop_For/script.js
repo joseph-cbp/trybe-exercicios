@@ -9,9 +9,22 @@ for(let index = 0; index < numbers.length; index += 1){
     
 }
 console.log(addAll);
+
+// Calcula Média
 console.log(addAll/numbers.length);
+
+// Verifica Se é Maior ou Menor que 20
 if(addAll > 20){
     console.log('Valor Maior que 20');
 }else{
     console.log('Valor Menor que 20');
 }
+
+// Verifica qual é o Maior elemento
+let biggest = 0;
+for(let index = 0; index < numbers.length; index += 1){
+    if (numbers[index] >= biggest){
+        biggest = numbers[index]
+    }
+}
+console.log(biggest)
