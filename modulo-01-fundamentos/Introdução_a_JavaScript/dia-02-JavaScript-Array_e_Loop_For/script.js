@@ -46,3 +46,17 @@ for(let index = 0; index < numbers.length; index += 1){
     }
 }
 console.log(lowest)
+
+//Array de 1 à 25
+let number1To25 = [];
+for(let index = 1; index <= 25; index +=1){
+    number1To25.push(index)
+}
+console.log(number1To25);
+
+//Dividir por 2
+let dividedBy2 = [];
+for(let number of number1To25){
+    dividedBy2.push(number/2)
+}
+console.log(dividedBy2);
