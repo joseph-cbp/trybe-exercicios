@@ -1,16 +1,16 @@
-let array = ['java', 'javascript', 'python', 'html', 'css'];
+let numbers = ['java', 'javascript', 'python', 'html', 'css'];
 
-let biggest = array[0];
-for(let index = 0; index < array.length; index += 1){
-    if (array[index].length >= biggest.length){
-        biggest = array[index]
+let biggest = numbers[0];
+for(let index = 0; index < numbers.length; index += 1){
+    if (numbers[index].length >= biggest.length){
+        biggest = numbers[index]
     }
 }
 console.log(biggest)
-let lowest = array[0];
-for(let index = 0; index < array.length; index += 1){
-    if (array[index].length <= lowest.length){
-        lowest = array[index]
+let lowest = numbers[0];
+for(let index = 0; index < numbers.length; index += 1){
+    if (numbers[index].length <= lowest.length){
+        lowest = numbers[index]
     }
 }
 console.log(lowest);
