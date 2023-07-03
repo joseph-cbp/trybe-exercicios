@@ -1,7 +1,4 @@
-// /src/App.js
-
-import ThemeContext from './context/ThemeContext';
-// ...
+import ThemeContext from "./context/ThemeContext";
 
 export default function App() {
   return (
